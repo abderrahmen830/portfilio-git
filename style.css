@@ -1,4 +1,4 @@
-/* القواعد الأساسية للجسم والعناصر */
+
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #121212;
@@ -56,7 +56,7 @@ header nav ul li a:hover {
 .intro h1 {
     font-size: 3rem;
     margin: 0;
-    color: #76ff03;
+    color: white;
 }
 
 .intro p {
@@ -67,19 +67,17 @@ header nav ul li a:hover {
 .intro button {
     margin: 10px 5px;
     padding: 10px 20px;
-    background-color: #76ff03;
+    background-color: green;
     color: #121212;
     border: none;
-    border-radius: 25px;
     cursor: pointer;
     transition: background-color 0.3s, transform 0.3s;
 }
 
 .intro button:hover {
-    background-color: #64dd17;
+    background-color: green;
     transform: scale(1.05);
 }
-
 .profile-picture {
     flex: 1;
     display: flex;
@@ -152,16 +150,15 @@ form input:focus, form textarea:focus {
 
 form button {
     padding: 10px 20px;
-    background-color: #76ff03;
+    background-color: green;
     color: #121212;
     border: none;
-    border-radius: 25px;
     cursor: pointer;
     transition: background-color 0.3s, transform 0.3s;
 }
 
 form button:hover {
-    background-color: #64dd17;
+    background-color: green;
     transform: scale(1.05);
 }
 
@@ -172,7 +169,7 @@ footer {
     box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
 }
 
-/* وسائط الاستعلام للتجاوب مع الأجهزة المختلفة */
+
 @media (max-width: 1024px) {
     .intro, .profile-picture {
         max-width: 100%;
